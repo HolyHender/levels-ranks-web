@@ -2426,7 +2426,8 @@ tr th a:hover .card_info_block{
     position: fixed;
     width: 270px;
     z-index: 2;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1)
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    overflow-x: scroll;    
 }
 
 @media (max-width: 1025px) {
